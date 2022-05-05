@@ -8,7 +8,7 @@ O objetivo do projeto foi criar desenvolver técnicas e aplicar os ensinamentos 
 
 # Layout do projeto
 
-![Prévia da Imagem](previa.png)
+<!-- ![Prévia da Imagem](previa.png) -->
 
 # Tecnologias utilizadas
 
