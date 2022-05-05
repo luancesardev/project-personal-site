@@ -1,39 +1,15 @@
-window.onload = function(){
-    document.querySelector(".menuMobile").addEventListener("click", function(){
-        if (document.querySelector(".menu nav ul").style.display == 'flex'){
-            document.querySelector(".menu nav ul").style.display = 'none';
-        } else {
-            document.querySelector(".menu nav ul").style.display = 'flex';
-        }
-    });
-}
+window.onload = Set_VideoRate ();
+
+// const ano = document.getElementById("ano");
+// const anoAtual = new Date();
+// ano.innerHTML = anoAtual.getFullYear();
 
 
-$("a.scroll").on('click', function (event) {
-    if (this.hash !== "") {
-        event.preventDefault();
-        let hash = this.hash;
-        $('html, body').animate({
-            scrollTop: $(hash).offset().top
-        }, 5000, function () {
-            window.location.hash = hash;
-        });
-    }
-});
 
-window.onscroll = function(){
-    scroll();
-}
+var v = document.getElementById("bg_video");
 
-function scroll(){
-    var btn = document.getElementById("btnTop");
-    if(document.documentElement.scrollTop > 250) {
-        btn.style.display = "block";
-    } else {
-        btn.style.display = "none";
-    }
-}
+function Set_VideoRate() { 
+    console.log("Chamada OK");
+    // v.playbackRate = 5;
+} 
 
-const ano = document.getElementById("ano");
-const anoAtual = new Date();
-ano.innerHTML = anoAtual.getFullYear();
