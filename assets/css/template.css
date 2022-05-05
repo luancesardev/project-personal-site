@@ -111,6 +111,11 @@ p {
     margin-top: 50px;
 }
 
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
 .container .social-icons li{
     margin-right: 3rem;
     display: inline-block;
