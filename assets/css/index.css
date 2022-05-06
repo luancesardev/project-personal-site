@@ -162,7 +162,7 @@ footer {
 
 
 
-@media (max-width:360px) {
+@media (max-width:380px) {
 
     body {
         overflow: visible;
@@ -176,7 +176,7 @@ footer {
     }
 
     .container .profile-title{
-        margin: auto 0.5rem;
+        margin: auto 0.7rem;
     }
     .container .profile-logo img {
         margin-top: 2rem;
@@ -189,7 +189,7 @@ footer {
     }
 
     .container .social-title {
-        margin: 1rem 0.2rem 0 0.2rem;
+        margin: 1rem 0.4rem 0 0.4rem;
     }
 
     .container .social-icons {
