@@ -175,6 +175,9 @@ footer {
         font-size: 1.75rem;
     }
 
+    .container .profile-title{
+        margin: auto 0.5rem;
+    }
     .container .profile-logo img {
         margin-top: 2rem;
         height: 150px;
@@ -186,7 +189,7 @@ footer {
     }
 
     .container .social-title {
-        margin-top: 1.5rem;
+        margin: 1.5rem 0.2rem 0 0.2rem;
     }
 
     .container .social-icons {
