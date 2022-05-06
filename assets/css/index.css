@@ -44,6 +44,10 @@ p {
     margin-inline-end: 0px;
 }
 
+footer {
+    bottom: 0;
+}
+
 .container {
     text-align: center;
     top: 50%;
@@ -71,7 +75,6 @@ p {
     margin-top: 10rem;
     height: 200px;
     width: 200px;
-    transform: rotate(15deg);
 }
 
 .container .profile-title {
@@ -93,11 +96,12 @@ p {
     justify-content: center;
 }
 
-
+.menu ul {
+    margin-top: 0;
+}
 .button {
     color: var(--text-light-color);
     text-decoration: none;
-    border-radius: 5px;
     font-size: 1rem;
 }
 
@@ -158,6 +162,7 @@ p {
 }
 
 
+
 @media (max-width:420px) {
 
     body {
@@ -177,6 +182,10 @@ p {
         width: 150px;
     }
 
+    .container .profile-subtitle {
+        margin: 1rem 10px 1rem 10px;
+    }
+
     .container .social-title {
         margin-top: 1.5rem;
     }
@@ -193,5 +202,8 @@ p {
         display: inline-block;
     }
 
+    .container .footer-title {
+        padding: 20px;
+    }
 
 }
