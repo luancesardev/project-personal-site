@@ -68,9 +68,10 @@ p {
 }
 
 .container .profile-logo img {
-    margin-top: 2rem;
+    margin-top: 10rem;
     height: 200px;
     width: 200px;
+    transform: rotate(15deg);
 }
 
 .container .profile-title {
@@ -104,7 +105,7 @@ p {
     color: var(--social-title-color);
     font-size: 1rem;
     text-transform: uppercase;
-    margin-top: 3rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
     font-weight: bold;
@@ -148,6 +149,14 @@ p {
     font-size: 2rem;
     transition: 0.2s;
 }
+
+.container .footer-title {
+    margin-top: 5rem;
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: var(--social-title-color);
+}
+
 
 @media (max-width:420px) {
 
