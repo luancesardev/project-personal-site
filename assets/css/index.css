@@ -162,7 +162,7 @@ footer {
 
 
 
-@media (max-width:420px) {
+@media (max-width:360px) {
 
     body {
         overflow: visible;
