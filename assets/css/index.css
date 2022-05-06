@@ -110,6 +110,7 @@ footer {
     text-transform: uppercase;
     margin-top: 1rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     font-weight: bold;
 }
@@ -162,7 +163,7 @@ footer {
 
 
 
-@media (max-width:380px) {
+@media (max-width:420px) {
 
     body {
         overflow: visible;
@@ -189,7 +190,7 @@ footer {
     }
 
     .container .social-title {
-        margin: 1rem 1rem;
+        margin: 1rem 2rem;
     }
 
     .container .social-icons {
