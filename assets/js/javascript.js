@@ -4,7 +4,7 @@ window.onload = Set_VideoRate();
 
 function Set_VideoRate() {
     console.log(v);
-    v.playbackRate = 0.5;
+    v.playbackRate = 1;
 }
 
 // const ano = document.getElementById("ano");
