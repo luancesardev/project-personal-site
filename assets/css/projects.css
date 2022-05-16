@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap'); */
+
+:root {
+    --gradient-color-1: linear-gradient(135deg, #006eff, #00fbff);
+    --text-light-color: #FFFFFF;
+    --background-color: #121214;
+    --social-hover-color: #00fbff;
+    --social-title-color: #9e9e9e;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    display: block;
+
+}
+
+* {
+    /* font-family: 'Special Elite'; */
+    font-family: Fira Code, monospace;
+}
+
+body {
+    height: 100vh;
+    -webkit-animation: 100vw;
+    /* overflow: hidden; */
+    letter-spacing: .2rem;
+    color: var(--text-light-color);
+
+}
+
+ul {
+    display: block;
+    list-style: none;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+footer {
+    bottom: 0;
+}
+
+.container {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    font-size: 2.25rem;
+}
+
+.bg_video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    background-size: cover;
+}
+
+.container .projects-title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    background-image: var(--gradient-color-1);
+    margin-top: 3.5rem;
+    margin-right: 38rem;
+    font-size: 1.5rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button {
+    color: var(--gradient-color-1);
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 10rem;
+}
+
+.container .footer-title {
+    /* margin-top: 5rem; */
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: var(--social-title-color);
+}
+
+
+
+@media (max-width:420px) {
+
+    body {
+        overflow: visible;
+    }
+
+    .container {
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        font-size: 1.75rem;
+    }
+
+    .container .profile-title{
+        margin: auto 0.7rem;
+    }
+    .container .profile-logo img {
+        margin-top: 2rem;
+        height: 150px;
+        width: 150px;
+    }
+
+    .container .profile-subtitle {
+        margin: 1rem 10px 1rem 10px;
+    }
+
+    .container .social-title {
+        margin: 1rem 2rem;
+    }
+
+    .container .social-icons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container .social-icons li {
+        margin-right: 3rem;
+        padding: 1rem;
+        display: inline-block;
+    }
+
+    .container .footer-title {
+        margin: 1.2rem;
+        padding: 10px;
+    }
+
+}
